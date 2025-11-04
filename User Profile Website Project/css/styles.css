@@ -1,0 +1,16 @@
+/* Gets footer to stick and bottom and applies background image*/
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+    background-image: url("../img/site-BG.jpg");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: center;
+}
